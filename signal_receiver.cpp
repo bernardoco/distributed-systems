@@ -10,13 +10,13 @@ using namespace std;
 void signalHandler (int signum) {
 	switch (signum) {
 		case 1:
-			cout << "Sinal Recebido: 1\n";
+			cout << "Sinal Recebido: 1. Ola Mundo!\n";
 			break;
 		case 2:
-			cout << "Sinal Recebido: 2\n";
+			cout << "Sinal Recebido: 2. Finalizando Programa\n";
 			exit(0);
 		case 3:
-			cout << "Sinal Recebido: 3\n";
+			cout << "Sinal Recebido: 3. Hello World!\n";
 			break;
 	}
 }
